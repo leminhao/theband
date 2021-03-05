@@ -56,6 +56,7 @@ html{
   margin-top: 15px;
   border: none;
   outline: none ;
+  text-align: center;
   
 
 }
@@ -83,6 +84,10 @@ html{
 
 .mt-16 {
   margin-top: 16px !important;
+}
+
+.mt-32 {
+  margin-top: 32px !important;
 }
 
 /* Main */
@@ -167,10 +172,20 @@ html{
   list-style-type: none;
   box-shadow: 0 0 10px rgb(0,0,0,0.3)
 }
+
+#header .mobile-menu-btn {
+   position: absolute;
+   top: 0;
+   right: 0;
+   display: none;
+}
+
+
 #header .mobile-menu-btn,
 #header .search-btn {
   float: right;
   padding: 0 23px;
+
 } 
 
 #header .mobile-menu-btn:hover {
@@ -201,7 +216,7 @@ html{
   position: relative;
   margin-top: 46px;
   padding-top: 50%;
-  background: url('/web-The-Band/assets/images/slide1.jpg') top center / cover no-repeat;
+  background: url('/web-the-band_template/assets/images/slide1.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -262,7 +277,7 @@ html{
 }
 
 #content .team-section {
-  margin-top: 48px;
+  margin-top: 32px;
   overflow: hidden;
 }
 
@@ -321,7 +336,7 @@ margin-left: 16px;
   /* margin-left: -8px;
    margin-right: -8px; *//* row */
    /* margin: 32px -8px 0; */
-  margin-top: 32px;
+  margin-top: 16px;
 
 }
 
