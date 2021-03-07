@@ -9,6 +9,10 @@
     margin-top: 8px;
   }
 
+  #header {
+    overflow: hidden;
+  }
+
   #nav {
     display: block;
   }

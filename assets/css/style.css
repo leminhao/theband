@@ -103,7 +103,7 @@ html{
   left: 0;
   right: 0;
   z-index: 1;
-  overflow: hidden;
+  /* overflow: hidden; */
 
 }
 
@@ -216,7 +216,7 @@ html{
   position: relative;
   margin-top: 46px;
   padding-top: 50%;
-  background: url('/web-the-band_template/assets/images/slide1.jpg') top center / cover no-repeat;
+  background: url('/theband/assets/images/slide1.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
